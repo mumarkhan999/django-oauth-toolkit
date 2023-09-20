@@ -3,7 +3,7 @@ import datetime
 
 import pytest
 from django.conf import settings
-from django.conf.urls import include
+from django.urls import include
 from django.contrib.auth import get_user_model
 from django.http import HttpResponse
 from django.test import TestCase, override_settings

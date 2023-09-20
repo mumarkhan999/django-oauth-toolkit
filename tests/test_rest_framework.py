@@ -1,12 +1,12 @@
 from datetime import timedelta
 
 import pytest
-from django.conf.urls import include
 from django.contrib.auth import get_user_model
 from django.core.exceptions import ImproperlyConfigured
 from django.http import HttpResponse
 from django.test import TestCase
 from django.test.utils import override_settings
+from django.urls import include
 from django.urls import path, re_path
 from django.utils import timezone
 from rest_framework import permissions
